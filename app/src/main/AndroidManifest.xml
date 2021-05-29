@@ -17,14 +17,7 @@
             </intent-filter>
         </activity>
 
-        <receiver
-            android:name=".MyBroadCast"
-            android:exported="false"
-            android:enabled="true">
-            <intent-filter>
-                <action android:name="android.intent.action.AIRPLANE_MODE"/>
-            </intent-filter>
-        </receiver>
+
     </application>
 
 </manifest>
